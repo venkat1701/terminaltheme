@@ -1,0 +1,11 @@
+.app{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: var(--background-color);
+  height: 100vh;
+}

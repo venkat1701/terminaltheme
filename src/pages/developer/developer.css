@@ -1,0 +1,404 @@
+.venky__developer{
+    width: 100%;
+    height: 100%;
+    font-family: monospace;
+    position: relative;
+}
+
+.venky__whereabouts{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+.venky__whereabouts_left{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.venky__whereabouts p{
+    width: 350px;
+    font-family: monospace;
+}
+
+.helpitems strong{
+    text-shadow: 1px 1px 6px var(--highlight-color);
+    font-size: 15px;
+}
+
+.helpitems strong:hover{
+    text-shadow: 1px 1px 10px var(--text-color);
+    cursor: pointer;
+    color: var(--background-color);
+}
+
+.venky__whereabouts_texts{
+    width: 380px;
+    background: var(--background-color);
+    padding: 20px;
+    color: var(--text-color);
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+}
+
+.venky__whereabouts_texts h2{
+    font-family: monospace;
+
+}
+
+
+.venky__whereabouts_stats{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    background: var(--background-color);
+    padding: 10px;
+}
+
+.venky__whereabouts_stats h3{
+    color: var(--text-color);
+}
+
+.venky__whereabouts_stats-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.venky__gauge{
+    width: 100px;
+}
+
+
+.venky__whereabouts_stats-info-texts li{
+    font-size: 14px;
+    overflow: hidden;
+    list-style-type: none;
+    
+}
+
+.highlighter{
+    text-shadow: 1px 1px 5px var(--highlight-color);
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+.venky__whereabouts_right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.education{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+    background: var(--background-color);
+    width: 380px;
+}
+
+.education-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+    width: 300px;
+}
+
+.education-1 p{
+    width: 260px;
+    font-size: 14px;
+}
+
+
+.venky__gauge-ed{
+    width: 80px;
+}
+
+.education h3{
+    color: var(--text-color);
+}
+
+
+.venky__videos {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: column;
+    background: var(--background-color);
+    padding:15px;
+    width: 300px;
+    gap: 20px;
+    box-shadow: inset 1px 1px 20px var(--background-offset);
+}
+
+.venky__videos_channel{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.venky__videos a{
+    color: #C2AFF0;
+    transition: 0.4s;
+    
+}
+
+.venky__videos strong{
+    text-shadow: 1px 1px 6px var(--highlight-color);
+    color: var(--text-color);
+}
+
+.venky__videos strong:hover{
+    color: var(--highlight-color);
+    
+    transform: translateX(10px);
+    transition: 0.5s;
+}
+
+.venky__videos_latest{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: column;
+}
+
+.venky__videos_latest strong{
+    color: var(--background-offset);
+    font-weight: 500;
+}
+
+
+
+.venky__socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 250px;
+    background: var(--background-color);
+    padding: 20px;
+    box-shadow: inset 1px 1px 15px var(--background-offset);
+}
+
+.venky__socials-header img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.venky__socials-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--text-color);
+}
+
+.venky__socials-header strong{
+    color: var(--text-color);
+    text-shadow: 1px 1px 6px var(--highlight-color);
+}
+
+.venky__socials-links{
+    display: flex;
+    justify-content:space-between;
+    align-items: left;
+    flex-wrap: wrap-reverse;
+    width: 200px;
+    gap: 20px;
+}
+
+.venky__socials-links a{
+    color: var(--text-offset);
+}
+
+.venky__socials-links a:hover{
+    color: var(--text-color);
+    text-shadow: 1px 1px 6px var(--highlight-color);
+}
+
+
+.venky__email{
+    color: var(--text-color);
+}
+
+.venky__projects{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: row;
+    width: 800px;
+}
+
+.venky__projects-container{
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.venky__projects-project {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: row;
+    width: 400px;
+}
+
+.venky__projects-project img {
+    height: 400px;
+    width: 300px;
+    border-radius: 0;
+    position: relative;
+}
+
+.venky__projects-project-information {
+    opacity: 0; /* Start with opacity 0 */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    transition: opacity 0.5s ease; 
+    height: 400px;
+    width: 300px;
+}
+
+.venky__projects-project:hover .venky__projects-project-information {
+    opacity: 1; /* Change opacity on hover */
+}
+
+.venky__projects-project-information h2{
+    padding: 20px;
+}
+
+.venky__projects-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.venky__projects-buttons .button{
+    width: 120px;
+}
+
+
+.venky__projects-project-information p{
+    padding: 20px;
+    text-align: justify;
+    font-size: 16px;
+    font-family: var(--font-paragraph);
+}
+
+video{
+    width: 500px;
+    height: 300px;
+}
+
+
+
+.venky__projects-project2 {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: row;
+    width: 500px;
+    height: 300px;
+}
+
+.venky__projects-project2 img {
+    height: 400px;
+    width: 300px;
+    border-radius: 0;
+    position: relative;
+}
+
+.venky__projects-project2-information {
+    opacity: 0; /* Start with opacity 0 */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    transition: opacity 0.5s ease; 
+    height: 300px;
+    width: 500px;
+}
+
+.venky__projects-project2:hover .venky__projects-project2-information {
+    opacity: 1; /* Change opacity on hover */
+}
+
+.venky__projects-project2-information h2{
+    padding: 20px;
+}
+
+.venky__projects2-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.venky__projects2-buttons .button{
+    width: 200px;
+}
+
+
+.venky__projects-project2-information p{
+    padding: 20px;
+    text-align: justify;
+    font-size: 16px;
+    font-family: var(--font-paragraph);
+}
+
+.venky__skills h2{
+    text-shadow: 1px 1px 6px var(--highlight-color);
+    color: var(--text-color);
+}
